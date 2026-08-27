@@ -6,6 +6,10 @@ export async function getStaticProps() {
   console.log(data)
   return{
     props:{product:data.products}
+    props:{product:data.products}
+    props:{product:data.products}
+    props:{product:data.products}
+    props:{product:data.products}
   }
 }
 export default function Index() {
